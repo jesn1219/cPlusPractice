@@ -2,28 +2,25 @@
 
 
 #include "testclass.cpp"
-
-
+#include "CellSystem/Cell.cpp"
+#include <time.h>
 
 
 testclass testcell;
 
 
 int main() {
-    auto *cell = new testclass;
+    srand(time(NULL));
 
+
+    Cell firstCell;
+    firstCell.initialize();
+
+    std:: cout << firstCell.gene[1]<< std::endl;
 
 
     std::cout << "Hello, World!" << std::endl;
-
-
-    std::cout << "Test Github" << std::endl;
-
-
-    std::cout << "Pull request test " << std::endl;
-
-
-    std::cout << "it isn't committed" << std::endl ;
+    std::cout << "Testing Github....." << std::endl;
 
     return 0;
 }
