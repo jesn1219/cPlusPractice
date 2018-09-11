@@ -8,6 +8,7 @@
 
 Cell::Cell() {
     //identityNumber setting required
+    this->identityNumber = 1;
 }
 
 void Cell::initialize() {
