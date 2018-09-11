@@ -1,6 +1,19 @@
 #include <iostream>
 
+
+#include "testclass.cpp"
+
+
+
+
+testclass testcell;
+
+
 int main() {
+    auto *cell = new testclass;
+
+
+
     std::cout << "Hello, World!" << std::endl;
 
 
