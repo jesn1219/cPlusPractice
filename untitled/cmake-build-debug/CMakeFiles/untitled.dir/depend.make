@@ -5,9 +5,7 @@ CMakeFiles/untitled.dir/main.cpp.o: ../CellSystem/Cell.cpp
 CMakeFiles/untitled.dir/main.cpp.o: ../CellSystem/Cell.h
 CMakeFiles/untitled.dir/main.cpp.o: ../CellSystem/CellPool.cpp
 CMakeFiles/untitled.dir/main.cpp.o: ../CellSystem/CellPool.h
-CMakeFiles/untitled.dir/main.cpp.o: ../Lecture/LecturePractice.cpp
-CMakeFiles/untitled.dir/main.cpp.o: ../Lecture/LecturePractice.h
-CMakeFiles/untitled.dir/main.cpp.o: ../basicFuntions.cpp
+CMakeFiles/untitled.dir/main.cpp.o: ../basicFunctions.cpp
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
 CMakeFiles/untitled.dir/main.cpp.o: ../testclass.cpp
 CMakeFiles/untitled.dir/main.cpp.o: ../testclass.h

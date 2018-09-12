@@ -5,8 +5,7 @@
 #include "CellSystem/Cell.cpp"
 #include "CellSystem/CellPool.cpp"
 #include <time.h>
-#include "Lecture/LecturePractice.cpp"
-#include "basicFuntions.cpp"
+#include "basicFunctions.cpp"
 
 testclass testcell;
 
@@ -15,14 +14,10 @@ testclass testcell;
 /*불완전 cell pool */
 
 using namespace std;
-LecturePractice lecture;
-
 int main() {
 
     cout << "Program initialize....." << endl;
     srand(time(NULL));
-    lecture.cinGetLine();
-    bf::bftest();
 
 
     /*
