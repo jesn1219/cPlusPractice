@@ -6,14 +6,19 @@
 #define UNTITLED_CELLPOOL_H
 
 #include "Cell.h"
+#include "Gene.h"
+#include "Gene.cpp"
+
 
 class CellPool {
 public:
     CellPool();
-    CellPool(int numberOfCell);
+    CellPool(int numberOfCell, int numberOfGene);
     int identityNumber;
     int CellidentityNumbering;
     Cell* pool;
+    Gene* genePool;
+
 
 };
 

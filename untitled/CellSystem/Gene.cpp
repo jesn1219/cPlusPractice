@@ -8,7 +8,7 @@
 #include <iostream>
 #include "Gene.h"
 #include "geneAlgorithm.cpp"
-
+#include <iomanip>
 
 
 // >???????????? geneAlgorithm cpp 인클루드 뭐임
@@ -48,10 +48,17 @@ Gene::Gene(Gene M, Gene F) {
 
 
 void Gene::printGene() {
+    int sum = 0;
     for (int i = 0; i < this->geneQuantity ; i++) {
-        cout << *(this->genePointer+i) << " ";
+        cout << setw(3) <<  *(this->genePointer+i) << " ";
     }
-    cout << "||||" ;
+
+
+    for (int i = 0; i < this->geneQuantity ; i++) {
+        sum += *(this->genePointer+i);
+    }
+    cout << setw(3) << "  avg : " << sum/this->geneQuantity << endl;
+
     cout << endl;
 
 }

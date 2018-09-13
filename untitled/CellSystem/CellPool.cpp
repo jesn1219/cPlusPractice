@@ -5,14 +5,20 @@
 #ifndef CELLPOOL_CPP
 #define CELLPOOL_CPP
 #include "CellPool.h"
+#include "Gene.h"
+#include "Gene.cpp"
+
 
 
 CellPool::CellPool() {
 
 }
 
-CellPool::CellPool(int numberOfCell) {
-    //Pool initializing Error
+CellPool::CellPool(int numberOfCell, int numberOfGene) {
+
+
+
 }
+
 
 #endif

@@ -1,7 +1,6 @@
 #include <iostream>
 
 
-#include "testclass.cpp"
 #include "CellSystem/Cell.cpp"
 #include "CellSystem/CellPool.cpp"
 #include "CellSystem/Gene.cpp"
@@ -26,8 +25,8 @@ int main() {
 
     //matingGene testing...
 
-    Gene testGene(5);
-    Gene testGene2(5);
+    Gene testGene(10);
+    Gene testGene2(10);
 
     testGene.printGene();
     testGene2.printGene();
