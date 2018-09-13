@@ -6,6 +6,7 @@
 #define UNTITLED_GENE_H
 
 
+
 class Gene {
 public:
     Gene(int Quantity);

@@ -2,30 +2,37 @@
 // Created by JESN on 13/09/2018.
 //
 
-#include <iostream>
 
+
+
+#ifndef GENEALGORITHM_CPP
+#define GENEALGORITHM_CPP
+
+
+#include <iostream>
 #include "Gene.cpp"
 
 
-namespace gene {
+
+
+namespace gal {
 
     void test();
-    int* matingGene(int unitA[], int unitB[], int quntity )
+    int* matingGene(int unitA[], int unitB[], int quntity );
 
-
+    void matingGene2(int* NewGenePointer, Gene M, Gene F);
 
 
 }
 
-
-void gene::test() {
+void gal::test() {
 
     std::cout<< "Testing.." << std::endl;
 
 }
 
 
-int * gene::matingGene(int *unitA, int *unitB, int quntity) {
+int * gal::matingGene(int *unitA, int *unitB, int quntity) {
     int * unitNew = (int*)malloc(quntity*sizeof(int));
 
     for (int i = 0; i < quntity; i++ ) {
@@ -36,6 +43,16 @@ int * gene::matingGene(int *unitA, int *unitB, int quntity) {
     return unitNew;
 }
 
-void gene::matingGene(int* NewGenePointer, Gene M, Gene F) {
+void gal::matingGene2(int* NewGenePointer, Gene M, Gene F) {
+    int Quauntity = M.geneQuantity;
+
+    for (int i = 0; i < Quauntity; i++ ) {
+        *(NewGenePointer+i) = (*(M.genePointer+i) + *(F.genePointer+i)) * 0.5;
+
+    }
+
+
 
 }
+
+#endif

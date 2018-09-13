@@ -2,9 +2,16 @@
 // Created by JESN on 13/09/2018.
 //
 
-#include "Gene.h"
+
+
+
+#ifndef UNTITLED_GENE_CPP
+#define UNTITLED_GENE_CPP
+
+#include "Gene.h""
 #include <iostream>
-#include "geneAlgorithm.cpp"
+
+// >???????????? geneAlgorithm cpp 인클루드 뭐임
 
 
 using namespace std;
@@ -29,9 +36,7 @@ Gene::Gene(Gene M, Gene F) {
     } else {
         this->geneQuantity = M.geneQuantity;
         this->genePointer = (int*)malloc(this->geneQuantity*sizeof(int));
-
-
-
+        gal::matingGene2(this->genePointer,M,F);
 
 
 
@@ -51,3 +56,5 @@ void Gene::printGene() {
     cout << endl;
 
 }
+
+#endif

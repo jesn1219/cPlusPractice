@@ -5,15 +5,13 @@
 #include "CellSystem/Cell.cpp"
 #include "CellSystem/CellPool.cpp"
 #include "CellSystem/geneAlgorithm.cpp"
-#include "CellSystem/Gene.cpp"
 
+#include "CellSystem/Gene.cpp"
+#define GENE_CPP
 
 #include <time.h>
 #include "basicFunctions.cpp"
 
-
-
-testclass testcell;
 
 
 
@@ -41,7 +39,7 @@ int main() {
     /*
     Cell cell;
     cell.initialize();
-    cout << cell.gene[2] << endl;
+    cout << cell.gal[2] << endl;
     */
 
 
