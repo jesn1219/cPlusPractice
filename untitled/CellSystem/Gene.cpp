@@ -2,14 +2,14 @@
 // Created by JESN on 13/09/2018.
 //
 
-
-
-
 #ifndef UNTITLED_GENE_CPP
 #define UNTITLED_GENE_CPP
 
-#include "Gene.h""
 #include <iostream>
+#include "Gene.h"
+#include "geneAlgorithm.cpp"
+
+
 
 // >???????????? geneAlgorithm cpp 인클루드 뭐임
 
@@ -17,7 +17,6 @@
 using namespace std;
 
 Gene::Gene(int Quantity) {
-
     this->geneQuantity = Quantity;
     this->genePointer = (int*)malloc(Quantity*sizeof(int));
 

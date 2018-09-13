@@ -4,8 +4,6 @@
 #include "testclass.cpp"
 #include "CellSystem/Cell.cpp"
 #include "CellSystem/CellPool.cpp"
-#include "CellSystem/geneAlgorithm.cpp"
-
 #include "CellSystem/Gene.cpp"
 #define GENE_CPP
 
@@ -33,7 +31,8 @@ int main() {
 
     testGene.printGene();
     testGene2.printGene();
-
+    Gene testNew(testGene,testGene2);
+    testNew.printGene();
 
 
     /*

@@ -1,6 +1,9 @@
 //
 // Created by JESN on 12/09/2018.
 //
+#ifndef CELL_CPP
+#define CELL_CPP
+
 
 #include "Cell.h"
 #include <iostream>
@@ -17,3 +20,5 @@ void Cell::initialize() {
 
     }
 }
+
+#endif //

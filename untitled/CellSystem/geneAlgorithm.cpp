@@ -8,7 +8,6 @@
 #ifndef GENEALGORITHM_CPP
 #define GENEALGORITHM_CPP
 
-
 #include <iostream>
 #include "Gene.cpp"
 
